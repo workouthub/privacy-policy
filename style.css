@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #4c84af;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    color: #4c84af;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.menu button:hover {
+    background-color: #f1f1f1;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    color: #4c84af;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+.section {
+    display: none;
+}
+
+#privacy {
+    display: block; /* Set Privacy Policy to be visible by default */
+}
